@@ -1,0 +1,87 @@
+
+/* Typographie */
+body{ 
+    background-color: #303030;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    }
+
+/* Reset et Utilitaires */
+* { box-sizing: border-box; }
+img { width: 100%; display: block;}
+
+
+/* Mise en page */
+/* Système colonnes */
+.row {
+    display: flex;
+    gap: 1rem;
+}
+.row > * { flex: 1; }
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+}
+.box{
+    flex: 0 0 200px;
+    aspect-ratio: 1/1;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery .title { flex: 0 0 100%; }
+
+
+/* mise en page generale */
+body {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+header { flex: 1 1 100%; }
+    nav { flex: 0 1 12rem; }
+    main { flex: 1 1 60%; }
+    footer { flex: 1 1 100%; }
+
+header { display: flex; }
+#Logo { 
+    flex: 0 0 200px;
+    aspect-ratio: 16/9; 
+}
+#TopNav { flex: 1 1 60% ;}
+
+
+
+#TopNav {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around
+}
+
+
+/* design */
+header { background-image: url("AKU/fond.Camion.AKU.freaitag.jpg");}
+nav{ background-color: cornflowerblue;}
+.box { background-color: coral;}
+
+.hero { 
+    aspect-ratio: 16/9;
+    background-color: pink;
+}
+
+
+
+/* Coloriage provisoire */
+_*{
+    padding: 0.5rem;
+    outline: 1px solid rgb(171, 200, 254);
+    outline-offset: -0.25rem;
+}
+
+body > asdfdsa* { outline: 2px solid blue; }
+
+
