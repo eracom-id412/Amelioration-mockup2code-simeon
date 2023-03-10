@@ -210,9 +210,15 @@ h3{
     background-color: #593D26;
 }
 .colorfooter{
-    background-color: #593D26;
+    background-image: url("mockup elements/4.Footer/Deco.png");
+    padding-top: 350px ;
+    background-size: cover;
 }
 
 .footerbloc_grid_container{
     flex-direction: row;
+}
+.footer_lmnt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
