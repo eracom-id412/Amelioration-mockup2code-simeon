@@ -83,7 +83,7 @@ button:hover {
 
 /* MAIN */
 
-main{
+.damnit2{
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -113,7 +113,7 @@ p{
     font-weight: 300;
 }
 
-main2{
+.damnit{
     align-items:center;
     display:flex;
     justify-content: space-around;
@@ -152,17 +152,17 @@ main2{
     height: 100px;
 }
 
-/* MAIN2 */
+/* Damnit */
 
 .container1{
     flex-direction: row-reverse;
     align-content: space-around;
-    justify-content:center;
+    justify-content:flex-end;
     margin: 30px;
     padding: 30px;
     color:#C8E6C9;
     display:flex;
-    width: 750%;
+    width: 75%;
 }
 
 h2{
@@ -211,4 +211,8 @@ h3{
 }
 .colorfooter{
     background-color: #593D26;
+}
+
+.footerbloc_grid_container{
+    flex-direction: row;
 }
