@@ -87,7 +87,7 @@ button:hover {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    padding-left: 110px;
+    padding: 110px;
     flex-direction: row;
 }
 
@@ -216,7 +216,9 @@ h3{
 }
 
 .footerbloc_grid_container{
-    flex-direction: row;
+    flex-direction: row
+    
+    ;
 }
 .footer_lmnt{
     display: grid;
